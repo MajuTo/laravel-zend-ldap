@@ -1,6 +1,6 @@
 {
     "name": "majuto/laravel-zend-ldap",
-    "description": "Zned Ldap implementation for Laravel",
+    "description": "Zend Ldap implementation for Laravel",
     "type": "library",
     "require": {
         "zendframework/zend-ldap": "^2.8"
