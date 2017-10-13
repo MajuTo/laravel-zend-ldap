@@ -5,5 +5,10 @@
     "require": {
         "zendframework/zend-ldap": "^2.8"
     },
+    "autoload": {
+        "psr-4": {
+            "MajuTo\\LaravelZendLdap\\": "src/MajuTo/LaravelZendLdap/"
+        }
+    },
     "license": "GNU GPL v3"
 }
