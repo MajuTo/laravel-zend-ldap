@@ -1,0 +1,9 @@
+{
+    "name": "majuto/laravel-zend-ldap",
+    "description": "Zned Ldap implementation for Laravel",
+    "type": "Laravel package",
+    "require": {
+        "zendframework/zend-ldap": "^2.8"
+    },
+    "license": "GNU GPL v3"
+}
