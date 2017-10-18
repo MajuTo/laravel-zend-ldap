@@ -10,7 +10,7 @@ class LdapFactory
      * @return \MajuTo\LaravelZendLdap\Ldap
      * @throws \Exception
      */
-    public static function getLdap($options = null)
+    public function getLdap($options = null)
     {
         if ($options === null ) {
             $options = config(self::CONFIG_FILE_NAME . '.default');
