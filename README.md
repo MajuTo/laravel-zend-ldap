@@ -1,2 +1,2 @@
 # laravel-zend-ldap
-This package gives you the possibility to use Zend LDAP library into Laravel
+This package lets you use the Zend LDAP library in Laravel
