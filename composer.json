@@ -9,6 +9,15 @@
         "psr-4": {
             "MajuTo\\LaravelZendLdap\\": "src/MajuTo/LaravelZendLdap/"
         }
+    },"extra": {
+        "laravel": {
+            "providers": [
+                "MajuTo\\LaravelZendLdap\\LdapServiceProvider"
+            ],
+            "aliases": {
+                "Ldap": "MajuTo\\LaravelZendLdap\\Facades\\Ldap"
+            }
+        }
     },
     "license": "GNU GPL v3"
 }
