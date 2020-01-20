@@ -8,7 +8,10 @@
     "autoload": {
         "psr-4": {
             "MajuTo\\LaravelZendLdap\\": "src/MajuTo/LaravelZendLdap/"
-        }
+        },
+      "files": [
+        "src/MajuTo/LaravelZendLdap/helpers.php"
+      ]
     },"extra": {
         "laravel": {
             "providers": [
